@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Una flor para ti mi vida</title>
+</head>
+<meta charset="utf-8">
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        heiht: 100vh;
+        background: #fffbe7;
+        front-family: Arial, sans-seriff;
+        text-align: center;
+    }
+
+    h1 {
+        color: #f7b500;
+        front-size: 2.5rem;
+    }
+
+    .flor {
+        front-size: 5rem;
+        animation: girar 5s linear infinite;
+    }
+
+    @keyframes girar {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+</head>
+<body>
+<div class = "flor"></div>
+<h1>Una flor amarilla para ti</h1>
+<p>Con mucho cariño, de tu ingeniero favorito</p>
+</body>
+</html>
